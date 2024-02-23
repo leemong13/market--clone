@@ -50,10 +50,16 @@ main {
   position: fixed;
   bottom: 150px;
   right: 20px;
-  background-color: #fe6f0f;
+  background-color: rgba(254, 111, 15);
   color: white;
   padding: 10px 15px 10px 15px;
   border-radius: 25px;
   font-size: 15px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.write-btn:hover {
+  background-color: rgba(254, 111, 15, 0.8);
 }
